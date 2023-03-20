@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "latihan4_177", "latihan4_177\latihan4_177.vcxproj", "{81FB2698-8135-4166-91BD-980B96140257}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example 2", "example 2\example 2.vcxproj", "{E0F3E597-665E-447D-ADFC-64DEA83A7FB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|arm64 = Debug|arm64
@@ -27,6 +29,18 @@ Global
 		{81FB2698-8135-4166-91BD-980B96140257}.Release|x64.Build.0 = Release|x64
 		{81FB2698-8135-4166-91BD-980B96140257}.Release|x86.ActiveCfg = Release|Win32
 		{81FB2698-8135-4166-91BD-980B96140257}.Release|x86.Build.0 = Release|Win32
+		{E0F3E597-665E-447D-ADFC-64DEA83A7FB3}.Debug|arm64.ActiveCfg = Debug|arm64
+		{E0F3E597-665E-447D-ADFC-64DEA83A7FB3}.Debug|arm64.Build.0 = Debug|arm64
+		{E0F3E597-665E-447D-ADFC-64DEA83A7FB3}.Debug|x64.ActiveCfg = Debug|x64
+		{E0F3E597-665E-447D-ADFC-64DEA83A7FB3}.Debug|x64.Build.0 = Debug|x64
+		{E0F3E597-665E-447D-ADFC-64DEA83A7FB3}.Debug|x86.ActiveCfg = Debug|Win32
+		{E0F3E597-665E-447D-ADFC-64DEA83A7FB3}.Debug|x86.Build.0 = Debug|Win32
+		{E0F3E597-665E-447D-ADFC-64DEA83A7FB3}.Release|arm64.ActiveCfg = Release|arm64
+		{E0F3E597-665E-447D-ADFC-64DEA83A7FB3}.Release|arm64.Build.0 = Release|arm64
+		{E0F3E597-665E-447D-ADFC-64DEA83A7FB3}.Release|x64.ActiveCfg = Release|x64
+		{E0F3E597-665E-447D-ADFC-64DEA83A7FB3}.Release|x64.Build.0 = Release|x64
+		{E0F3E597-665E-447D-ADFC-64DEA83A7FB3}.Release|x86.ActiveCfg = Release|Win32
+		{E0F3E597-665E-447D-ADFC-64DEA83A7FB3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
