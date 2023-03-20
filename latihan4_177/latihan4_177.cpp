@@ -13,7 +13,46 @@ float LuasSegitiga(float a, float t) {
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    float panjang, lebar, jejari, alas, tinggi;
+    int pilihan;
+
+    do {
+        cout << "\n\n=====================" << endl;
+        cout << "========= MENU ========" << endl;
+        cout << "=======================" << endl;
+        cout << "1. Luas Persegi" << endl;
+        cout << "2. Luas Lingkaran" << endl;
+        cout << "3. Luas Segitiga" << endl;
+        cout << "4.EXIT" << endl;
+        cout << "PILIHAN (1/2/3/4): ";
+        cin >> pilihan;
+        switch (pilihan) {
+        case 1:
+            cout << "Masukkan panjang = ";
+            cin >> panjang;
+            cout << "Masukkan lebar = ";
+            cin >> lebar;
+            cout << "Luas Persegi Panjang = " << LuasPersegi(panjang, lebar);
+            break;
+        case 2:
+            cout << "Masukkan jari jari = ";
+            cin >> jejari;
+            cout << "Luas Lingkaran = " << LuasLingkaran(jejari);
+            break;
+        case 3:
+            cout << "Masukkan alas = ";
+            cin >> alas;
+            cout << "Masukkan tinggi = ";
+            cin >> tinggi;
+            cout << "Luas segitiga = " << LuasSegitiga(alas, tinggi);
+            break;
+        case 4:
+            break;
+        default:
+            cout << "PILIHAN SALAH" << endl;
+            break;
+        }
+    } while (pilihan != 4);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
